@@ -21,7 +21,7 @@ resource "random_string" "suffix" {
 
 module "vpc" {
   source  = "terraform-aws-modules/vpc/aws"
-  version = "3.2.0"
+  version = "5.4.0"
   name                 = var.vpc_name
   cidr                 = var.cidr
   azs                  = data.aws_availability_zones.available.names
