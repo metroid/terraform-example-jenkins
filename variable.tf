@@ -6,8 +6,6 @@ variable "region" {}
 variable "cidr" {}
 variable "public_subnets_cidr" {}
 variable "private_subnets_cidr" {}
-variable "cluster_name_dep" {}
-variable "workers_name_development" {}
 variable "workers_name_deployment" {}
 variable "instance_type" {}
 variable "keyname" {}

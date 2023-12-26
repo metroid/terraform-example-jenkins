@@ -23,7 +23,7 @@ resource "kubernetes_deployment" "jenkins" {
       }
       spec {
         container {
-          image = "322757803258.dkr.ecr.us-east-1.amazonaws.com/jenkins_docker:latest"
+          image = "jenkins/jenkins"
           name  = "jenkins"
           port {
             container_port = 8080
